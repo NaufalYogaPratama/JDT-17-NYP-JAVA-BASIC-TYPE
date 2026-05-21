@@ -1,6 +1,7 @@
 package com.indivaragroup;
 
 import com.indivaragroup.data.type.TypeDataNonPrimitive;
+import com.indivaragroup.expression.Expression;
 import com.indivaragroup.house.floor.Ceramic;
 import com.indivaragroup.calculation.identity.registration.CalculationRegistrationIdentity;
 import com.indivaragroup.calculation.report.students.ScoringStudents;
@@ -93,5 +94,7 @@ public class Main {
         BooleanOperator.booleanOperator();
 
         InstanceOfOperator.instanceOfOperator();
+
+        Expression.expression();
     }
 }
