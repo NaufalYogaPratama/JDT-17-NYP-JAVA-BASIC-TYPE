@@ -1,7 +1,7 @@
 package com.indivaragroup.operator.unary;
 
 public class UnaryOperator {
-    public void unaryOperator (){
+    public static void unaryOperator (){
         int a =5;
 
         System.out.println(++a);

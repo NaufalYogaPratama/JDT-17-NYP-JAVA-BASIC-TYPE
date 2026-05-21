@@ -9,6 +9,7 @@ import com.indivaragroup.data.type.CharacterTypeData;
 import com.indivaragroup.jav.logic.ReleaseFilterLogic;
 import com.indivaragroup.data.type.ArrayDataType;
 import com.indivaragroup.operator.augmented.assignment.AugmentedAssignment;
+import com.indivaragroup.operator.compare.ComparingOperator;
 import com.indivaragroup.operator.unary.UnaryOperator;
 import com.indivaragroup.todolist.logic.TaskManager;
 
@@ -80,6 +81,8 @@ public class Main {
 
         new AugmentedAssignment().augmentedAssignmentFunction();
 
-        new UnaryOperator().unaryOperator();
+        UnaryOperator.unaryOperator();
+
+        ComparingOperator.comparingOperator();
     }
 }
