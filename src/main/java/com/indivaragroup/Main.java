@@ -9,6 +9,7 @@ import com.indivaragroup.data.type.CharacterTypeData;
 import com.indivaragroup.jav.logic.ReleaseFilterLogic;
 import com.indivaragroup.data.type.ArrayDataType;
 import com.indivaragroup.operator.augmented.assignment.AugmentedAssignment;
+import com.indivaragroup.operator.unary.UnaryOperator;
 import com.indivaragroup.todolist.logic.TaskManager;
 
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -78,5 +79,7 @@ public class Main {
         new TaskManager().runMiniProject();
 
         new AugmentedAssignment().augmentedAssignmentFunction();
+
+        new UnaryOperator().unaryOperator();
     }
 }
